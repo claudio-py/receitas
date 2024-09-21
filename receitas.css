@@ -1,0 +1,27 @@
+.section-receitas{
+  display:flex; 
+  flex-direction:row;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  
+}
+.card{
+  padding: 1rem;
+  flex: 1 1 25rem ;
+  text-align: baseline;
+  max-width:25rem;
+  display:flex;
+  flex-direction:column;
+  gap: 1rem;
+}
+.card h2{
+  text-align: center;
+}
+#bolo p{
+  margin-bottom: 0!important;
+}

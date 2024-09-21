@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+:root {
+	font-size: 62.5%;
+}
+a {
+	text-decoration: none;
+  color: unset;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* ============BASE================ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font: 400 1.6rem var(--body-font);
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  background-color: #f3f3;
+  min-height: 100vh;
+}
+header{
+  height: 8.5vh;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+min-height: 83vh;
+  max-height:fit-content; 
+}
+footer{
+  background-color:#000;
+height: 8.5vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  width: fit-content;
+  font-weight: bold;
+}
+
+/* ============HOME================ */
+.section-home {
+  /* padding-bottom:8.5vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.section-home p {
+  font-weight: bold;
+}
+.home-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  /* text-align: center; */
+} 
+
+.home-title img{
+width: 50px;
+  height: 50px;
+}
+
